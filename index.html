@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>cash register</title>
+</head>
+<style>
+    table,
+    th,
+    td{
+        border:1px solid red;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 class="heading" style="color: red;">Cash Register Maneger</h1>
+        <p class="description">
+            Enter the bill amount and cash given by the customer and know minimum number of notes to return.
+        </p>
+        <label for="bill-amount"><b>Bill Amount</b></label>
+        <input class="sos" id="bill-amount" type="text"/>
+        <label for="cash-given"><b>Cash Given</b></label>
+        <input class="sos" id="cash-given" type="text"/>
+        <div class="check">
+            <button id="check-button" style="border-color: red;" ><b>check</b></button>
+        </div>
+        <!-- <button  id="check-button"  >check</button> -->
+        <p id="error-message"></p>
+        <caption><b><strong>Return Change</strong></b></caption>
+        <table class="change-table">
+            <!-- <caption><b><i>Return Change</i></b></caption> -->
+            <tr>
+                <th>No of notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table> 
+    </div>
+    <footer
+    style="margin-top: 150px;text-align: center; margin-right: 50px;">
+        <p>©| 2021|adarshbalika</p>
+        <span style=" padding-top: 20px;">
+            <a href="https://github.com/poojarani21?tab=repositories"><img src ="github.svg"></a>
+           <a href="https://discord.com/invite/qaGwEEB8eF"><img src="discord.svg"></a>
+            <a href="https://twitter.com/Pujaran98719089?t=ArnS0r7Q4hp6n-ZGRSAzUQ&s=09"><img src ="twitter.svg"></a>
+            <img src="instagram.svg">
+        </span></footer>
+</body>
+<script src="script.js"></script>
+</html>
+

@@ -1,0 +1,27 @@
+.container {
+    display : flex;
+    flex-direction : column ;
+    width : 50vw ;
+    margin-left: 24%;
+    text-align: center;
+  }
+  
+  .sos{
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-color:red ;
+  }
+
+
+.check{
+  padding-top: 3%;
+}
+.change-table{
+  border-collapse: collapse;
+}
+
+body{
+  background-color:lightblue;
+}
